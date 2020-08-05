@@ -1,2 +1,3 @@
 # Portfolio Website
- Personal 
+
+Personal Portfolio Website. Credits to simplefolio by cobidev for the template
