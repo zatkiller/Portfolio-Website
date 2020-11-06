@@ -67,6 +67,18 @@ export default function () {
 		)
 	);
 
+	/* About Section */
+	ScrollReveal().reveal(
+		".skills-wrapper",
+		assignProps(
+			{
+				delay: 600,
+				origin: "bottom",
+			},
+			defaultProps
+		)
+	);
+
 	/* Experience Section */
 	ScrollReveal().reveal(
 		".experience-wrapper__text",
