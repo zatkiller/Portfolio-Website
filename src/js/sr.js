@@ -91,16 +91,16 @@ export default function () {
 		)
 	);
 
-	// ScrollReveal().reveal(
-	// 	".experience-wrapper__image",
-	// 	assignProps(
-	// 		{
-	// 			delay: 1000,
-	// 			origin: window.innerWidth > 768 ? "right" : "bottom",
-	// 		},
-	// 		defaultProps
-	// 	)
-	// );
+	ScrollReveal().reveal(
+		".experience-wrapper__image",
+		assignProps(
+			{
+				delay: 1000,
+				origin: window.innerWidth > 768 ? "right" : "bottom",
+			},
+			defaultProps
+		)
+	);
 
 	/* Projects Section */
 	ScrollReveal().reveal(
