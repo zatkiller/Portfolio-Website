@@ -1,4 +1,5 @@
 #skills {
+	display: flex;
 	background-image: linear-gradient(135deg, #de6262 0%, #fc9483 100%);
 	// background-color: #fc9483;
 	color: $white-color;
@@ -28,7 +29,7 @@
 		}
 
 		&__image {
-			display: flex;
+			flex-wrap: wrap;
 			height: 100%;
 			align-items: center;
 			justify-content: center;

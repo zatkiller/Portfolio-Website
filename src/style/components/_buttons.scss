@@ -23,9 +23,11 @@
 
 /* Hero Style */
 .cta-btn--hero {
+	display: inline-block;
 	@include supportColorForIE11();
 	border: 2px solid transparent;
 	margin-right: 15px;
+	margin-bottom: 15px;
 	border-image: linear-gradient(
 		135deg,
 		$primary-color 0%,
@@ -42,6 +44,7 @@
 	@include respond(phone) {
 		background-image: none;
 		border: 2px solid $secondary-color;
+		margin-right: 25px;
 		-webkit-text-fill-color: $secondary-color;
 	}
 
